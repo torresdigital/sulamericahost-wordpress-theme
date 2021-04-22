@@ -1,0 +1,245 @@
+/*
+Theme Name: Sul América Host - Hospedagem de Sites e Lojas Virtuais
+Theme URI: https://www.torresdigital.com.br
+Template: construction-field
+Author: Torres Digital
+Author URI: https://www.torresdigital.com.br
+Version: 1.0.2021.1618964686
+Updated: 2021-04-20 21:24:46
+
+*/
+
+h1 {
+	font-size: 22px;
+	font-weight: 900
+}
+
+h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title, .featured-button.btn.btn-primary.hidden-xs.hidden-sm, .post-template-default.single.single-post .entry-title, .entry-title, .entry-title a, #primary-menu, .top-header a, .top-header p, .at-display-inline-block, .more-link.btn.btn-primary { font-family: "Roboto", Open Sans, sans-serif; }
+
+.main-navigation a {font-size: 14px;font-weight: 600;}
+.image-slider-wrapper > .at-absolute-feature-icon {width: 100%}
+.btn-primary.btn-reverse { background: rgba(255, 0, 0, 0.8);     color: #fff;     border: 1px solid #fff; }
+.btn-primary.btn-reverse:hover {background-color: #ff3815}
+
+#nossos-clientes {
+	margin: auto 12px;
+}
+
+.acme-gallery .gallery-inner-item::before {
+	box-shadow: initial
+}
+
+.at-gallery-item h3,
+.at-gallery-item h3 a {
+	text-shadow: initial;
+	color: #333;
+	text-align: center;
+	width: auto;
+	display: inherit;
+}
+
+.at-bottom-lower {
+	left: 0;
+	bottom: 0
+}
+
+.inner-main-title .entry-title,
+.inner-main-title .page-title {
+	text-shadow: 2px 2px 2px #333;
+}
+
+.info-icon-box-wrapper .info-icon-box {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.info-icon-details {
+	margin-left: 0;
+}
+
+.info-icon-details .icon-desc {
+	font-size: 14px;
+}
+
+.container.primary-bg.at-absolute-feature-icon {
+	padding: 0;
+}
+
+.testimonial-wrapper .testimonial-content {
+	background: rgba(255, 0, 0, 0.3);
+	border-radius: 74px 4px;
+	width: 100%;
+}
+
+.acme-abouts .column .single-item .icon i {
+	border-radius: 100%
+}
+
+.acme-abouts .column .single-item .title {
+	font-size: 20px;
+}
+
+.site-footer .details {
+	font-size: 12px;
+}
+
+.at-widget-title-wrapper {
+	margin-bottom: 33px;
+}
+
+.at-action-wrapper {
+	bottom: 0/*33px*/
+	;
+}
+
+.accordion-title {
+	font-size: 18px;
+}
+
+.accordion-title a {
+	color: #0081ff;
+}
+
+#torresdigital-copy {
+	width: auto;
+	float: left;
+}
+
+#torresdigital-copy img {
+	max-width: 45%;
+}
+
+.copy-right {
+	height: auto;
+	padding: 5px 0;
+	background-image: url('/wp-content/uploads/2018/09/ground-footer-nat-c.jpg');
+}
+
+.site-info {
+	width: auto;
+	float: right;
+	padding: 5px 0;
+}
+
+
+/*.footer-copyright.text-left {display: none;}*/
+
+.navbar-header img {
+	max-width: 95%
+}
+
+.navbar-header {
+	float: left;
+	vertical-align: bottom;
+	position: relative;
+	padding: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #ff3815;
+}
+
+.featured-button.btn.btn-primary.hidden-xs.hidden-sm {
+	font-weight: 600;
+    border: 2px solid #ff3815;
+	margin: 0
+}
+
+.single-list.column .fa {
+	font-size: 20px;
+}
+
+.btn-primary.btn-reverse:hover {
+	background: rgba(255, 0, 0, 0.8);
+	border: initial;
+}
+
+.acme-services .single-item .icon {
+	padding: 7px;
+}
+
+.featured-image-wrap {
+	padding: 0
+}
+
+.fa.fa-angle-up.sm-up {
+	top: -8%;
+	position: relative;
+}
+
+article.post .entry-header-title h1.entry-title {
+	font-size: 28px;
+	text-align: center;
+}
+
+article.post .entry-footer,
+article.page .entry-footer {
+	margin-bottom: 10px;
+	padding: 15px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#footer-noticias .entry-title {
+	font-size: inherit;
+	text-align: inherit;
+}
+
+.entry-header-title .entry-title {
+	margin: 0
+}
+
+.site-footer .entry-content {
+	padding-left: 0;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.acme-testimonials .slick-arrow.prev,
+.acme-testimonials .slick-arrow.next {
+	top: 264px;
+}
+
+.team-img-box::before {
+	bottom: 0;
+	-webkit-box-shadow: 0 -40px 92px -60px #c0c0c0 inset;
+	box-shadow: 0 -40px 92px -60px #c0c0c0 inset;
+}
+
+.top-header .text-right> :first-child {
+	margin-right: 0
+}
+
+.widget li a {
+	color: #032CA2;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+#radio-natdisc-id input[type="checkbox"],
+#radio-natdisc-id input[type="radio"] {
+	max-width: 100%;
+	padding: 0;
+	width: 12px;
+}
+
+.more-link.btn.btn-primary {
+	float: right;
+	margin: auto 30px;
+	padding: 1px 12px;
+	top: 12px;
+	position: relative;
+	font-weight: 200;
+}
+
+article.post,
+article.page {
+	margin-bottom: 50px;
+}
+
+#aceite-id {
+	max-width: 12%;
+	float: left;
+	margin: 0 12px;
+}
