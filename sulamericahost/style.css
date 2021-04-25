@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 .btn-primary.btn-reverse:hover {background-color: #ff3815}
 
 .info-icon-box .info-icon {left: 45px; }
+.info-icon-details {font-weight: 600; }
 
 #nossos-clientes {
 	margin: auto 12px;
@@ -61,7 +62,12 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 }
 
 .info-icon-details .icon-desc {
-	font-size: 14px;
+    font-size: 14px;
+    background: red;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #ae1f1f;
 }
 
 .container.primary-bg.at-absolute-feature-icon {
