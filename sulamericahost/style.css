@@ -287,7 +287,15 @@ article.page {
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+
 @media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
 
 }
 
@@ -302,7 +310,7 @@ article.page {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 640px) {
 
 }
 
@@ -311,6 +319,10 @@ article.page {
 
 }
 
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
