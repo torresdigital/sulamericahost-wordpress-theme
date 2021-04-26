@@ -100,10 +100,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 	border-radius: 100%
 }
 
-.acme-abouts .column .single-item .title {
-	font-size: 20px;
-}
-
+.acme-abouts .column .single-item .title { font-size: 20px; text-align: center; padding-left: 0px; float: initial; display: flow-root; }
 .site-footer .details {
 	font-size: 12px;
 }
