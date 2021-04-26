@@ -76,6 +76,13 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     bottom: 12px;
     position: relative;
 }
+.info-icon-details .icon-title { font-weight: 600; }
+.info-icon-box .info-icon .fa.fa-check { left: -15px; }
+.acme-abouts .column .single-item .icon i { border: none; }
+.at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle {
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
 .container.primary-bg.at-absolute-feature-icon {
 	padding: 0;
