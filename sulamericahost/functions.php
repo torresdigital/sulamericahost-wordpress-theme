@@ -22,3 +22,12 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+function sample_admin_notice__success() {
+?>
+<div id="admin-torres-digital" class="notice notice-success is-dismissible" style="font-weight: 600">
+    <p><?php _e( 'Torres Digital Wordpress Theme !', 'sample-text-domain' ); ?></p>
+</div>
+<?php
+                                        }
+add_action( 'admin_notices', 'sample_admin_notice__success' );
