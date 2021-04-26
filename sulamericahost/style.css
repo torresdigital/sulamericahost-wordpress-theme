@@ -84,6 +84,8 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     font-family: 'Poppins', sans-serif;
 }
 
+.image-slider-caption.init-animate.fadeInDown { background: rgba(255, 0, 0, 0.8); border-radius: 30px; padding: 2px 5px; width: 85%; text-align: center; line-height: 26px; height: 32px; }
+
 .container.primary-bg.at-absolute-feature-icon {
 	padding: 0;
 }
@@ -98,10 +100,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 	border-radius: 100%
 }
 
-.acme-abouts .column .single-item .title {
-	font-size: 20px;
-}
-
+.acme-abouts .column .single-item .title { font-size: 20px; text-align: center; padding-left: 0px; float: initial; display: flow-root; }
 .site-footer .details {
 	font-size: 12px;
 }
