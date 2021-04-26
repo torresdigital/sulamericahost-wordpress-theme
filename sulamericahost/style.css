@@ -68,6 +68,13 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     padding: 5px 10px;
     color: #fff;
     text-shadow: 1px 1px 1px #ae1f1f;
+    top: 7px;
+    position: relative;
+}
+.info-icon-box .info-icon .fa {
+    font-size: 24px;
+    bottom: 12px;
+    position: relative;
 }
 
 .container.primary-bg.at-absolute-feature-icon {
