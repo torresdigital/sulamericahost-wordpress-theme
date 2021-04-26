@@ -79,10 +79,8 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 .info-icon-details .icon-title { font-weight: 600; }
 .info-icon-box .info-icon .fa.fa-check { left: -15px; }
 .acme-abouts .column .single-item .icon i { border: none; }
-.at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle {
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
-}
+html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle { margin-bottom: 0; font-family: 'Poppins', sans-serif;}
+.acme-abouts .column .single-item .content { padding: 0 5px; text-align: center; display: flow-root; }
 
 .image-slider-caption.init-animate.fadeInDown { background: rgba(255, 0, 0, 0.8); border-radius: 30px; padding: 2px 5px; width: 85%; text-align: center; line-height: 26px; height: 32px; }
 
@@ -308,7 +306,7 @@ article.page {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1280px) {
 
-
+}
 @media only screen and (max-width : 1200px) {
 
 }
@@ -826,6 +824,8 @@ like a charm in your responsive design!
     and (max-device-height: 281px) {
 
 }
+
+    @keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
 
 
 
