@@ -86,7 +86,7 @@ html div#navbar { padding: 5px 0; }
 html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle { margin-bottom: 0; font-family: 'Poppins', sans-serif;}
 
 .acme-abouts .column .single-item .content { padding: 0 5px; text-align: center; display: flow-root; }
-.site-title, .site-title a { font-size: 15px; line-height: 7px; margin: 0; text-transform: initial; font-weight: 300; text-align: center; }
+.site-title, .site-title a { font-size: 13px; line-height: 7px; margin: 0; text-transform: initial; font-weight: 300; text-align: center; }
 .image-slider-caption.init-animate.fadeInDown { background: rgba(255, 0, 0, 0.8); border-radius: 30px; padding: 2px 5px; width: 85%; text-align: center; line-height: 26px; height: 32px; }
 
 .custom-logo-link { width: 100%; text-align: center; position: relative; display: block; }
