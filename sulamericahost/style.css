@@ -76,13 +76,20 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     bottom: 12px;
     position: relative;
 }
+
+html div#navbar { padding: 5px 0; }
+
 .info-icon-details .icon-title { font-weight: 600; }
 .info-icon-box .info-icon .fa.fa-check { left: -15px; }
 .acme-abouts .column .single-item .icon i { border: none; }
-html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle { margin-bottom: 0; font-family: 'Poppins', sans-serif;}
-.acme-abouts .column .single-item .content { padding: 0 5px; text-align: center; display: flow-root; }
 
+html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle { margin-bottom: 0; font-family: 'Poppins', sans-serif;}
+
+.acme-abouts .column .single-item .content { padding: 0 5px; text-align: center; display: flow-root; }
+.site-title, .site-title a { font-size: 15px; line-height: 7px; margin: 0; text-transform: initial; font-weight: 300; text-align: center; }
 .image-slider-caption.init-animate.fadeInDown { background: rgba(255, 0, 0, 0.8); border-radius: 30px; padding: 2px 5px; width: 85%; text-align: center; line-height: 26px; height: 32px; }
+
+.custom-logo-link { width: 100%; text-align: center; position: relative; display: block; }
 
 .container.primary-bg.at-absolute-feature-icon {
 	padding: 0;
@@ -94,9 +101,7 @@ html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-s
 	width: 100%;
 }
 
-.acme-abouts .column .single-item .icon i {
-	border-radius: 100%
-}
+.acme-abouts .column .single-item .icon i { border-radius: 100%; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4); }
 
 .acme-abouts .column .single-item .title { font-size: 20px; text-align: center; padding-left: 0px; float: initial; display: flow-root; }
 .site-footer .details {
@@ -152,7 +157,7 @@ html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-s
 	float: left;
 	vertical-align: bottom;
 	position: relative;
-	padding: 5px;
+	padding-bottom: 5px;
 }
 
 .btn-primary:hover {
@@ -826,6 +831,7 @@ like a charm in your responsive design!
 }
 
     @keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
 
 
 
