@@ -283,6 +283,12 @@ article.page {
     font-size: 15px;
 }
 
+.signal a {color: #777; font-weight: bold; font-family: 'Poppins', sans-serif}
+
+#signal { font-size: 14px; }
+
+#signal .fab.fa-github { font-size: 27px; float: left;  margin-right: 12px;}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
