@@ -313,6 +313,20 @@ html .tagcloud a:hover { color: #fff; background: rgba(221, 221, 221, 0.5); }
 .at-action-wrapper .slick-arrow.prev, .at-action-wrapper i.slick-arrow { color: #fff; border-radius: 30px; border: 2px solid; }
 .site-footer .details { font-size: 14px; font-weight: 600; text-shadow: 1px 2px #333; text-align: center; }
 
+/*Parceiros*/
+
+#parceiros-container-id {
+    display: inline-block;
+    margin: 20px auto 40px;
+    position: relative;
+}
+
+html #alc_style14 .alc_item {
+    padding: 0;
+    margin: 0 12px;
+    min-height: 150px;
+    border: none;
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
