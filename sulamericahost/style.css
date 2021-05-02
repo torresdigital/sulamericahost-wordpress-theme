@@ -167,7 +167,10 @@ html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-s
 .featured-button.btn.btn-primary.hidden-xs.hidden-sm {
     font-weight: 600;
     border: 2px solid #ff3815;
-    margin: 0
+    margin: 0;
+    line-height: 12px;
+    top: 8px;
+    text-shadow: 1px 1px 1px #ee0e0e;
 }
 
 .single-list.column .fa { font-size: 20px; color: #ff3815}
