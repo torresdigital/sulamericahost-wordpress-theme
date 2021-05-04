@@ -10,11 +10,7 @@ Updated: 2021-04-20 21:24:46
 
 */
 
-h1 {
-    font-size: 22px;
-    font-weight: 900
-}
-
+h1 {font-size: 22px; font-weight: 900}
 h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title, .featured-button.btn.btn-primary.hidden-xs.hidden-sm, .post-template-default.single.single-post .entry-title, .entry-title, .entry-title a, #primary-menu, .top-header a, .top-header p, .at-display-inline-block, .more-link.btn.btn-primary { font-family:'Poppins', sans-serif }
 
 .main-navigation a {font-size: 14px;font-weight: 600;}
@@ -25,13 +21,9 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 .info-icon-box .info-icon {left: 45px; }
 .info-icon-details {font-weight: 600; }
 
-#nossos-clientes {
-    margin: auto 12px;
-}
+#nossos-clientes {  margin: auto 12px;}
 
-.acme-gallery .gallery-inner-item::before {
-    box-shadow: initial
-}
+.acme-gallery .gallery-inner-item::before { box-shadow: initial}
 
 .at-gallery-item h3,
 .at-gallery-item h3 a {
@@ -42,11 +34,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     display: inherit;
 }
 
-.at-bottom-lower {
-    left: 0;
-    bottom: 0
-}
-
+.at-bottom-lower { left: 0; bottom: 0}
 .inner-main-title .entry-title,
 .inner-main-title .page-title {
     text-shadow: 2px 2px 2px #333;
