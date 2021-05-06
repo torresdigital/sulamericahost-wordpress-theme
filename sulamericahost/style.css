@@ -335,7 +335,8 @@ html #alc_style14 .alc_item {
 .btn-primary.focus, .btn-primary:focus { color:#fff; background-color:#ff3815; border:1px solid #fff; }
 
 /*Planos de Hospedagem*/
-.planos-de-hospedagem-box ul > li { text-align: left; margin: 0 auto; font-weight: bold; font-family: 'Poppins', sans-serif; }
+.home .planos-de-hospedagem-box ul > li { text-align: left; margin: 0 auto; font-weight: bold; font-family: 'Poppins', sans-serif; display: list-item; }
+.planos-de-hospedagem-box ul > li { text-align: left; margin: 12px auto; font-weight: bold; font-family: 'Poppins', sans-serif; }
 #planos-de-hospedagem-id .kc-fb-layout-1 .content-icon i { font-size: 55px; color: #ff3815; text-align: center; }
 #planos-de-hospedagem-id { margin: 50px auto; }
 #planos-de-hospedagem-column-id { -webkit-box-shadow: 0 0 16px rgba(0,0,0,.1); box-shadow: 0 0 16px rgba(0,0,0,.1); border-radius: 6px; padding: 50px 20px; margin: 12px auto; width: 30%; }
