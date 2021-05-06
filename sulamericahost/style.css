@@ -338,10 +338,13 @@ html #alc_style14 .alc_item {
 .planos-de-hospedagem-box ul > li { text-align: left; margin: 12px auto; font-weight: bold; font-family: 'Poppins', sans-serif; }
 #planos-de-hospedagem-id .kc-fb-layout-1 .content-icon i { font-size: 55px; color: #ff3815; text-align: center; }
 #planos-de-hospedagem-id { margin: 50px auto; }
-#planos-de-hospedagem-column-id { -webkit-box-shadow: 0 0 16px rgba(0,0,0,.1); box-shadow: 0 0 16px rgba(0,0,0,.1); border-radius: 6px; padding: 50px 20px; margin: 12px; width: 30%; }
+#planos-de-hospedagem-column-id { -webkit-box-shadow: 0 0 16px rgba(0,0,0,.1); box-shadow: 0 0 16px rgba(0,0,0,.1); border-radius: 6px; padding: 50px 20px; margin: 12px auto; width: 30%; }
+
+#planos-de-hospedagem-column-id .content-button a { border-radius: 5px; color: #fff; background-color: #ff3815; font-weight: 600;  border: 2px solid #ff3815; margin: 0; text-shadow: 1px 1px 1px #ee0e0e;font-size: 14px; text-transform: inherit; }
 
 #planos-de-hospedagem-column-id:hover { z-index: 2; -webkit-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,.15); box-shadow: 0 2px 15px 0 rgba(0,0,0,.15); transition: 150ms linear; }
 #planos-de-hospedagem-column-id ul { margin-left: 12px; padding-left: 25px; }
+
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
