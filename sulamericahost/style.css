@@ -349,10 +349,11 @@ html #alc_style14 .alc_item {
 
 /*valores*/
 #valor { width: auto; display: inline-flex; margin: 10px; padding-bottom: 13px; border-bottom: 4px solid #e6e6e6; }
-.cifrao { color: #2f1c6a; font-size: 20px; margin: 0; font-weight: bold; bottom: 9px; position: relative; }
+.cifrao { font-size: 20px; margin: 0; bottom: 9px; position: relative; color: #ff3815; font-weight: 600; text-shadow: 1px 1px 1px #dfdfdf; }
 .preco { font-size: 40px; margin: 0; color: #ff3815; font-weight: 600; text-shadow: 1px 1px 1px #dfdfdf; }
-.mes { color: #2f1c6a; font-size: 15px; margin: 0 1px; font-weight: 600; top: 6px; position: relative; }
+.mes { font-size: 15px; margin: 0 1px; top: 6px; position: relative; color: #ff3815; font-weight: 600; text-shadow: 1px 1px 1px #dfdfdf; }
 .memoria { color: #f00; text-shadow: 1px 1px 1px #e3e3e3; font-size: 18px; }
+#planos-de-hospedagem-column-id .content-title { font-weight: 600; text-shadow: 1px 1px 1px #dfdfdf; }
 
 
 /*==================================================
