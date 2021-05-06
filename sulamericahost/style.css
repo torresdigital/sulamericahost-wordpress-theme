@@ -348,7 +348,7 @@ html #alc_style14 .alc_item {
 #planos-de-hospedagem-column-id ul { margin-left: 12px; padding-left: 25px; }
 
 /*valores*/
-#valor { display: flex; }
+#valor { width: auto; display: inline-flex; margin: 10px; padding-bottom: 13px; border-bottom: 4px solid #e6e6e6; }
 .cifrao { color: #2f1c6a; font-size: 20px; margin: 0; font-weight: bold; bottom: 9px; position: relative; }
 .preco { color: #2f1c6a; font-size: 40px; margin: 0; font-weight: 600; }
 .mes { color: #2f1c6a; font-size: 15px; margin: 0 1px; font-weight: 600; top: 6px; position: relative; }
