@@ -329,10 +329,8 @@ html #alc_style14 .alc_item {
 }
 
 /*Quem somos*/
-.quem-somos-primeira-descricao-class h1 {
-    margin: 30px auto;
-}
-
+.quem-somos-primeira-descricao-class h1 {  margin: 30px auto; line-height: 32px}
+.quem-somos-primeira-descricao-class p { font-size: 15px; text-align: justify; font-weight: 500; }
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
