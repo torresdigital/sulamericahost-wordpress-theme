@@ -88,7 +88,7 @@ html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-s
     width: 100%;
 }
 
-.acme-abouts .column .single-item .icon i { border-radius: 100%; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4); }
+.acme-abouts .column .single-item .icon i { border-radius: 100%; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4); border: 4px solid #f4f4f4; line-height: 73px;}
 
 .acme-abouts .column .single-item .title { font-size: 20px; text-align: center; padding-left: 0px; float: initial; display: flow-root; }
 .site-footer .details {
@@ -284,7 +284,12 @@ article.page {
 #feature-teste-30-dias { padding: 30px 0; margin: 30px auto; height: 230px; }
 .signal a {color: #777; font-weight: bold; font-family: 'Poppins', sans-serif}
 #feature-teste-30-dias .at-widget-title-wrapper { margin-bottom: 33px; top: 44px; position: relative; display: block; }
-.signal .fab.fa-github { font-size: 27px; float: left;  margin-right: 12px; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4); border-radius: 30px;}
+.signal .fab.fa-github { font-size: 27px; float: left;  margin-right: 12px; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4); border-radius: 30px; border: 4px solid #f4f4f4; padding: 0 2px; top: -5px; position: relative}
+
+.acme-abouts .column .single-item .icon .fa.fa-github::before {
+    content: "\f09b";
+    font-size: 37px;
+}
 
 #feature-teste-30-dias .btn-primary.btn-reverse { bottom: -38px; display: inline-block; position: relative; }
 .acme-services { margin-top: 70px; }
@@ -335,7 +340,8 @@ html #alc_style14 .alc_item {
 .btn-primary.focus, .btn-primary:focus { color:#fff; background-color:#ff3815; border:1px solid #fff; }
 
 /*Planos de Hospedagem*/
-.home .planos-de-hospedagem-box ul > li { text-align: left; margin: 0 auto; font-weight: bold; font-family: 'Poppins', sans-serif; display: list-item; }
+#planos-de-hospedagem-column-id ul { margin-left: 12px; padding-left: 25px; list-style: disc;}
+.home .planos-de-hospedagem-box ul > li { text-align: left; margin: 0 auto; font-weight: bold; font-family: 'Poppins', sans-serif; display: list-item ; }
 .planos-de-hospedagem-box ul > li { text-align: left; margin: 12px auto; font-weight: bold; font-family: 'Poppins', sans-serif; }
 #planos-de-hospedagem-id .kc-fb-layout-1 .content-icon i { font-size: 55px; color: #ff3815; text-align: center; }
 #planos-de-hospedagem-id { margin: 50px auto; }
@@ -346,7 +352,6 @@ html #alc_style14 .alc_item {
 #planos-de-hospedagem-column-id .content-button a:hover {animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4);
 }
 #planos-de-hospedagem-column-id:hover { z-index: 2; -webkit-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,.15); box-shadow: 0 2px 15px 0 rgba(0,0,0,.15); transition: 150ms linear;  }
-#planos-de-hospedagem-column-id ul { margin-left: 12px; padding-left: 25px; }
 
 /*valores*/
 #valor { width: auto; display: inline-flex; margin: 10px; padding-bottom: 13px; border-bottom: 4px solid #e6e6e6; }
