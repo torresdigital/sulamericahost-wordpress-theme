@@ -70,7 +70,7 @@ html div#navbar { padding: 5px 0; border-top: red 5px solid; box-shadow: 0px 10p
 .info-icon-box .info-icon .fa.fa-check { left: -15px; }
 .acme-abouts .column .single-item .icon i { border: none; }
 
-html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle { margin-bottom: 0; font-family: 'Poppins', sans-serif;}
+html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-subtitle { margin-bottom: 0; font-family: 'Poppins', sans-serif; text-shadow: 1px 1px 5px #ff1414;}
 
 .acme-abouts .column .single-item .content { padding: 0 5px; text-align: center; display: flow-root; }
 .site-title, .site-title a { font-size: 13px; line-height: 7px; margin: 0; text-transform: initial; font-weight: 300; text-align: center; }
@@ -359,6 +359,7 @@ html #alc_style14 .alc_item {
 #planos-de-hospedagem-column-id .content-title { font-weight: 600; text-shadow: 1px 1px 1px #dfdfdf; }
 
 /*footer*/
+#tag_cloud-1 { text-align: center;}
 .site-footer .entry-header-title .entry-title{ font-size: 16px; font-weight: 600; text-align: center; background: red; border: 4px solid #eaeaea; border-radius: 30px; padding: 4px 16px; }
 
 #posts-footer .cat-links a { font-size: 14px; font-weight: 600; text-shadow: 1px 2px #333; text-align: center; color: #fff; }
