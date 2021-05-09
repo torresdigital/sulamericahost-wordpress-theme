@@ -352,6 +352,8 @@ html #alc_style14 .alc_item {
 }
 #planos-de-hospedagem-column-id:hover { z-index: 2; -webkit-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,.15); box-shadow: 0 2px 15px 0 rgba(0,0,0,.15); transition: 150ms linear;  }
 
+#construction_field_service-1 { margin-bottom: 60px; }
+
 /*valores*/
 #valor { width: auto; display: inline-flex; margin: 10px; padding-bottom: 13px; border-bottom: 4px solid #e6e6e6; }
 .cifrao { font-size: 20px; margin: 0; bottom: 9px; position: relative; color: #ff3815; font-weight: 600; text-shadow: 1px 1px 1px #dfdfdf; }
