@@ -374,7 +374,9 @@ html #alc_style14 .alc_item {
 .woocommerce div.product div.images img {
     width: auto;
 }
-
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: auto;
+}
 
 
 /*==================================================
