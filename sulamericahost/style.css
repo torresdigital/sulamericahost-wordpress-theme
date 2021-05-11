@@ -377,6 +377,34 @@ html #alc_style14 .alc_item {
 .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
     width: auto;
 }
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    float: right;
+    width: auto;
+    position: relative;
+    display: contents;
+}
+.woocommerce .quantity .qty {
+    height: auto;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 5px solid #dfdfdf;
+    width: auto;
+    padding: 1px 20px;
+}
+.woocommerce span.onsale {
+    width: 100%;
+    border: initial;
+    border-radius: 5px;
+    padding: 0;
+    height: 8px;
+    display: block;
+    top: 10px;
+    left: 43px;
+    max-width: 11%;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
 
 
 /*==================================================
