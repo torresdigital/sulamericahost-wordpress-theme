@@ -13,6 +13,8 @@ Updated: 2021-04-20 21:24:46
 h1 {font-size: 22px; font-weight: 900}
 h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title, .featured-button.btn.btn-primary.hidden-xs.hidden-sm, .post-template-default.single.single-post .entry-title, .entry-title, .entry-title a, #primary-menu, .top-header a, .top-header p, .at-display-inline-block, .more-link.btn.btn-primary { font-family:'Poppins', sans-serif }
 
+.site-content { margin-top: 80px;}
+
 .main-navigation a {font-size: 14px;font-weight: 600;}
 .image-slider-wrapper > .at-absolute-feature-icon {width: 100%}
 .btn-primary.btn-reverse { background: rgba(255, 0, 0, 0.8);     color: #fff;     border: 1px solid #fff; }
@@ -429,7 +431,8 @@ html #alc_style14 .alc_item {
     display: block;
     width: 34%;
 }
-.woocommerce-Price-currencySymbol {
+/*valores*/
+.woocommerce div.product p.price ins bdi .woocommerce-Price-currencySymbol {
     font-size: 20px;
     margin: 0;
     bottom: 9px;
@@ -437,6 +440,16 @@ html #alc_style14 .alc_item {
     color: #ff3815;
     font-weight: 600;
     text-shadow: 1px 1px 1px #dfdfdf;
+}
+bdi {
+    font-size: 34px;
+    color: #ff3815;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #dfdfdf;
+}
+del span, del bdi {
+    font-size: 20px;
+    font-weight: 600;
 }
 .product_title.entry-title {
     margin-bottom: 20px;
