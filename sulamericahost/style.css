@@ -13,6 +13,8 @@ Updated: 2021-04-20 21:24:46
 h1 {font-size: 22px; font-weight: 900}
 h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title, .featured-button.btn.btn-primary.hidden-xs.hidden-sm, .post-template-default.single.single-post .entry-title, .entry-title, .entry-title a, #primary-menu, .top-header a, .top-header p, .at-display-inline-block, .more-link.btn.btn-primary { font-family:'Poppins', sans-serif }
 
+.site-content { margin-top: 80px;}
+
 .main-navigation a {font-size: 14px;font-weight: 600;}
 .image-slider-wrapper > .at-absolute-feature-icon {width: 100%}
 .btn-primary.btn-reverse { background: rgba(255, 0, 0, 0.8);     color: #fff;     border: 1px solid #fff; }
@@ -65,7 +67,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     position: relative;
 }
 
-html div#navbar { padding: 5px 0; border-top: red 5px solid; box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31)}
+html div#navbar { padding: 5px 0; border-top: red 5px solid; box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.31)}
 .info-icon-details .icon-title { font-weight: 600; }
 .info-icon-box .info-icon .fa.fa-check { left: -15px; }
 .acme-abouts .column .single-item .icon i { border: none; }
@@ -368,6 +370,95 @@ html #alc_style14 .alc_item {
 #posts-footer .cat-links a { font-size: 14px; font-weight: 600; text-shadow: 1px 2px #333; text-align: center; color: #fff; }
 .site-footer .entry-header-title .entry-title{ font-size: 16px; font-weight: 600; text-align: center; background: red; border: 4px solid #eaeaea; border-radius: 30px; padding: 4px 16px; }
 
+/*woocommerce*/
+
+    /*produtos*/
+.woocommerce div.product div.images img {
+    width: auto;
+}
+.woocommerce div.product form.cart div.quantity {
+    float: left;
+    margin: 0 4px 0 0;
+    top: 3px;
+    position: relative;
+}
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: auto;
+}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    float: right;
+    width: auto;
+    position: relative;
+    display: block;
+    max-width: 64%;
+}
+
+.woocommerce .quantity .qty {
+    height: auto;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 5px solid #dfdfdf;
+    width: auto;
+    padding: 1px 20px;
+}
+.woocommerce span.onsale {
+    width: 100%;
+    border: initial;
+    border-radius: 5px;
+    padding: 0;
+    height: 8px;
+    display: block;
+    top: 10px;
+    left: 43px;
+    max-width: 11%;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
+.woocommerce-product-details__short-description a {
+    color: red;
+    font-weight: bold;
+}
+.woocommerce div.product form.cart .button {
+    vertical-align: middle;
+    float: left;
+    border: 5px solid #dfdfdf;
+    border-radius: 30px;
+    height: auto;
+    top: 0;
+    margin: 0 12px;
+    position: relative;
+    display: block;
+    width: 34%;
+}
+.woocommerce-product-gallery__trigger {
+    border: 4px solid #333;
+}
+/*valores*/
+.woocommerce div.product p.price ins bdi .woocommerce-Price-currencySymbol {
+    font-size: 20px;
+    margin: 0;
+    bottom: 9px;
+    position: relative;
+    color: #ff3815;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #dfdfdf;
+}
+bdi {
+    font-size: 34px;
+    color: #ff3815;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #dfdfdf;
+}
+del span, del bdi {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+.product_title.entry-title {
+    margin-bottom: 20px;
+}
+mark, ins { color: transparent;} u, ins {text-decoration: unset}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
