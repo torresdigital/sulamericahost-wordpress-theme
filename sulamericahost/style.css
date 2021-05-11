@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
     position: relative;
 }
 
-html div#navbar { padding: 5px 0; border-top: red 5px solid; box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31)}
+html div#navbar { padding: 5px 0; border-top: red 5px solid; box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.31)}
 .info-icon-details .icon-title { font-weight: 600; }
 .info-icon-box .info-icon .fa.fa-check { left: -15px; }
 .acme-abouts .column .single-item .icon i { border: none; }
@@ -374,6 +374,12 @@ html #alc_style14 .alc_item {
 .woocommerce div.product div.images img {
     width: auto;
 }
+.woocommerce div.product form.cart div.quantity {
+    float: left;
+    margin: 0 4px 0 0;
+    top: 3px;
+    position: relative;
+}
 .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
     width: auto;
 }
@@ -381,8 +387,10 @@ html #alc_style14 .alc_item {
     float: right;
     width: auto;
     position: relative;
-    display: contents;
+    display: block;
+    max-width: 64%;
 }
+
 .woocommerce .quantity .qty {
     height: auto;
     border-radius: 30px;
@@ -405,7 +413,34 @@ html #alc_style14 .alc_item {
     margin: 0 auto;
     clear: both;
 }
-
+.woocommerce-product-details__short-description a {
+    color: red;
+    font-weight: bold;
+}
+.woocommerce div.product form.cart .button {
+    vertical-align: middle;
+    float: left;
+    border: 5px solid #dfdfdf;
+    border-radius: 30px;
+    height: auto;
+    top: 0;
+    margin: 0 12px;
+    position: relative;
+    display: block;
+    width: 34%;
+}
+.woocommerce-Price-currencySymbol {
+    font-size: 20px;
+    margin: 0;
+    bottom: 9px;
+    position: relative;
+    color: #ff3815;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #dfdfdf;
+}
+.product_title.entry-title {
+    margin-bottom: 20px;
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
