@@ -460,6 +460,21 @@ del span, del bdi {
 }
 mark, ins { color: transparent;} u, ins {text-decoration: unset}
 
+/*checkout*/
+html .woocommerce-form.woocommerce-form-login.login {
+    display: block !important;
+}
+.showlogin {
+    display: none;
+}
+#order_review bdi {
+    font-size: 14px;
+}
+.woocommerce-form.woocommerce-form-login.login p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
