@@ -476,10 +476,14 @@ html .woocommerce-form.woocommerce-form-login.login {
 }
 #createaccount {
     position: relative;
-    animation: shadow-pulse 1s infinite;
+    /*animation: shadow-pulse 1s infinite;
     cursor: pointer;
-    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);*/
 }
+
+/*carrinho*/
+.product-remove { width: 4%; }
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
