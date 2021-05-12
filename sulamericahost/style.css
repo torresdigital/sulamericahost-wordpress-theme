@@ -483,6 +483,10 @@ html .woocommerce-form.woocommerce-form-login.login {
 
 /*carrinho*/
 .product-remove { width: 4%; }
+.product-price { width: 16%; }
+#add_payment_method table.cart img, .woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {
+    width: 100%;
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
