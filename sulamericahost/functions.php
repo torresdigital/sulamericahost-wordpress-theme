@@ -31,3 +31,6 @@ function sample_admin_notice__success() {
 <?php
                                         }
 add_action( 'admin_notices', 'sample_admin_notice__success' );
+
+/*woocommerce*/
+add_theme_support('woocommerce');
