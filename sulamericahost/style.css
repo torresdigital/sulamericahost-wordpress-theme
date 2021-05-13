@@ -460,6 +460,36 @@ del span, del bdi {
 }
 mark, ins { color: transparent;} u, ins {text-decoration: unset}
 
+/*checkout*/
+html .woocommerce-form.woocommerce-form-login.login {
+    display: block !important;
+}
+.showlogin {
+    display: none;
+}
+#order_review bdi {
+    font-size: 14px;
+}
+.woocommerce-form.woocommerce-form-login.login p {
+    font-size: 14px;
+    font-weight: 600;
+}
+#createaccount {
+    position: relative; /*animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4);*/ }
+
+/*carrinho*/
+.actions { color: #fff;}
+.product-remove { width: 4%; }
+.product-quantity { width: 12%; text-align: center; }
+.woocommerce table.shop_table {padding: 5px; border: 1px dotted rgb(70, 70, 70)}
+.product-price, .product-subtotal { width: 15%; text-align: center }
+.woocommerce table.shop_table {text-align: center}
+.cart-subtotal bdi {  font-size: 20px; }
+
+#add_payment_method table.cart img, .woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {  width: 100%;}
+.woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text { width: 50%; position: relative; display: block; text-align: center; color: #333; font-weight: 600; font-size: 12px;}
+.woocommerce #content table.cart td.actions .coupon, .woocommerce table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {text-align: center}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
