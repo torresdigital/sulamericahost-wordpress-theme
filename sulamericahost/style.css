@@ -643,6 +643,10 @@ td, th {
     single-list.col-sm-12.col-md-4.column a { font-size: 12px; }
     .image-slider-caption.init-animate.fadeInDown {font-size: 16px}
     .image-slider-wrapper .slider-content .btn-primary { margin: 10px 25px; }
+    
+    .kc-elm.kc-css-558716.kc_col-sm-6.kc_column, .kc-elm.kc-css-882246.kc_col-sm-6.kc_column { width: 100%; }
+    .featured-image-wrap { padding: 0; width: 100%; max-width: 50%; text-align: center; margin: 0 auto; }
+    .single-service-content { font-size: 14px; text-align: center; }
 
 }
 
