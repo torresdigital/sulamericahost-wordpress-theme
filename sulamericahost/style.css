@@ -570,6 +570,8 @@ td, th {
     .site-footer { font-size: 12px; }
     .tagcloud a { font-size: 12px !important;}
     .site-footer .entry-header-title .entry-title {font-size: 14px}
+    .site-footer .at-widgets.acme-col-posts .widget-title { margin-top: 0;}
+    .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images { width: 36%; }
 
 
 
