@@ -566,6 +566,8 @@ td, th {
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
 
+    .desktop-only { display: block; }
+
     .info-icon-details .icon-desc { font-size: 12px; }
     .info-icon-box .info-icon .fa { right: 24px; }
     .custom-logo-link { width: 80%; z-index: 0; margin: auto; }
@@ -593,6 +595,7 @@ td, th {
         height: 24%;
     }
     .acme-abouts .column .single-item .title { font-size: 16px; }
+    .single-service-content { font-size: 14px; text-align: center; }
 
 
 
@@ -640,9 +643,15 @@ td, th {
         max-width: 33%;
         font-size: 12px;
     }
-    single-list.col-sm-12.col-md-4.column a {
-        font-size: 12px;
-    }
+    single-list.col-sm-12.col-md-4.column a { font-size: 12px; }
+    .image-slider-caption.init-animate.fadeInDown {font-size: 16px}
+    .image-slider-wrapper .slider-content .btn-primary { margin: 10px 25px; }
+    
+    .kc-elm.kc-css-558716.kc_col-sm-6.kc_column, .kc-elm.kc-css-882246.kc_col-sm-6.kc_column { width: 100%; }
+    .featured-image-wrap { padding: 0; width: 100%; max-width: 50%; text-align: center; margin: 0 auto; }
+    .single-service-content { font-size: 14px; text-align: center; }
+    .site-footer .entry-header-title .entry-title {font-size: 12px}
+    .footer-columns .widget-title { font-size: 12px; margin: 0; }
 
 }
 
