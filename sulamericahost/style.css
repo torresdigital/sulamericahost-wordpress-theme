@@ -566,6 +566,10 @@ td, th {
     .main-navigation li {border-top: 4px solid #ddd}
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm {left: 22px}
     .image-slider-caption.init-animate.fadeInDown {width: 100%}
+    .single-service-content {font-size: 12px}
+    .site-footer { font-size: 12px; }
+    .tagcloud a { font-size: 12px !important;}
+    .site-footer .entry-header-title .entry-title {font-size: 14px}
 
 
 
