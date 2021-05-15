@@ -460,6 +460,18 @@ html .woocommerce-form.woocommerce-form-login.login {
 #createaccount {
     position: relative; /*animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4);*/ }
 
+.woocommerce-order-overview__total.total bdi, .page-template-default.page.page-id-464.logged-in.wp-custom-logo.theme-construction-field.gutentor-active.kc-css-system.woocommerce-checkout.woocommerce-page.woocommerce-order-received.woocommerce-js.woocommerce-active.acme-animate.no-sidebar.absolute bdi {
+    font-size: 20px;
+}
+
+/*Importante ! */
+.kc-content-widget {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+}
+
 /*carrinho*/
 .actions { color: #fff;}
 .product-remove { width: 4%; }
@@ -579,11 +591,31 @@ td, th {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    
+    #planos-de-hospedagem-column-id {margin: 12px 16px}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    
+    .info-icon-box-wrapper {
+        width: auto;
+        display: flex;
+    }
+    
+    .info-icon-box-wrapper .info-icon-box {
+        max-width: 25%;
+        display: inline-block;
+        width: 100%;
+    }
+    .info-icon-details .icon-desc {
+        font-size: 10px;
+    }
+    .info-icon-details .icon-title {font-size: 12px; }
+    .info-icon-box .info-icon .fa {
+        right: 48px;
+    }
 
 }
 
