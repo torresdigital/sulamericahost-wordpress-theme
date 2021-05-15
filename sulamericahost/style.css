@@ -640,9 +640,9 @@ td, th {
         max-width: 33%;
         font-size: 12px;
     }
-    single-list.col-sm-12.col-md-4.column a {
-        font-size: 12px;
-    }
+    single-list.col-sm-12.col-md-4.column a { font-size: 12px; }
+    .image-slider-caption.init-animate.fadeInDown {font-size: 16px}
+    .image-slider-wrapper .slider-content .btn-primary { margin: 10px 25px; }
 
 }
 
