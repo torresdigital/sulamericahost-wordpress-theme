@@ -33,4 +33,17 @@ function sample_admin_notice__success() {
 add_action( 'admin_notices', 'sample_admin_notice__success' );
 
 /*woocommerce*/
-add_theme_support('woocommerce');
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+/* Cart Redirect ! */
+add_filter( 'woocommerce_add_to_cart_redirect', 'misha_skip_cart_redirect_checkout' );
+
+function misha_skip_cart_redirect_checkout( $url ) {
+    return wc_get_checkout_url();
+}
+
+
+
