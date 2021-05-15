@@ -585,6 +585,8 @@ td, th {
     
     .info-icon-details .icon-desc { font-size: 12px; }
     .info-icon-box .info-icon .fa { right: 24px; }
+    .custom-logo-link { width: 80%; z-index: 0; margin: auto; }
+    .navbar-header { width: 85%; }
 
 }
 
