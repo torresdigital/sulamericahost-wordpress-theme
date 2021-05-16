@@ -567,6 +567,7 @@ td, th {
 @media only screen and (max-width : 1024px) {
 
     html .desktop-only { display: block; }
+    .hidden-sm { display: inline-block !important; }
 
     .info-icon-details .icon-desc { font-size: 12px; }
     .info-icon-box .info-icon .fa { right: 24px; }
@@ -630,7 +631,8 @@ td, th {
         right: 48px;
     }
     #planos-de-hospedagem-column-id {
-        margin: 12px 12px;
+        width: 32%;
+        margin: 12px 5px;
         position: relative;
         display: inline-block;
         float: none;
@@ -653,6 +655,7 @@ td, th {
     .single-service-content { font-size: 14px; text-align: center; }
     .site-footer .entry-header-title .entry-title {font-size: 12px}
     .footer-columns .widget-title { font-size: 12px; margin: 0; }
+    .navbar-header { width: 74%; }
 
 }
 
