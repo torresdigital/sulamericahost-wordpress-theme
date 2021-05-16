@@ -738,7 +738,7 @@ td, th {
     .info-icon-box .info-icon .fa.fa-check {
         left: -222px;
     }
-    i.slick-arrow{top: 135px}
+
     .image-slider-wrapper .slider-content {top: 25%}
     .single-list.col-sm-12.col-md-4.column {
         width: auto;
@@ -790,12 +790,12 @@ td, th {
         margin: 0 auto;
     }
     .info-icon-details .icon-desc {
-        font-size: 10px;
+        font-size: 12px;
         margin: auto;
         top: -5px;
     }
     .info-icon-details .icon-title {
-        font-size: 15px;
+        font-size: 14px;
         margin: 5px auto 0;
     }
     .info-icon-box .info-icon .fa {
@@ -804,6 +804,22 @@ td, th {
     }
     .info-icon-box .info-icon .fa.fa-check {
         left: -207px;
+    }
+    .image-slider-wrapper .slider-content .btn-primary {
+        margin: 2px auto;
+        font-size: 12px;
+    }
+    .featured-image-wrap {max-width: 80%}
+    .widget-title { font-size: 25px; }
+
+    h2 { font-size: 18px; }
+
+    #planos-de-hospedagem-column-id {
+        width: 85%;
+        padding: 50px 5px;
+        margin: 12px auto;
+        position: relative;
+        display: flex;
     }
 
 
