@@ -783,8 +783,28 @@ td, th {
         top: -6px;
     }
 
-    .info-icon-box-wrapper .info-icon-box { max-width: 100%; }
-    .info-icon-details .icon-desc { font-size: 10px; margin: auto; }
+    .info-icon-box-wrapper .info-icon-box {
+        max-width: 100%;
+        padding: 5px;
+        height: 47px;
+        margin: 0 auto;
+    }
+    .info-icon-details .icon-desc {
+        font-size: 10px;
+        margin: auto;
+        top: -5px;
+    }
+    .info-icon-details .icon-title {
+        font-size: 15px;
+        margin: 5px auto 0;
+    }
+    .info-icon-box .info-icon .fa {
+        right: 207px;
+        bottom: -1px;
+    }
+    .info-icon-box .info-icon .fa.fa-check {
+        left: -207px;
+    }
 
 
 }
