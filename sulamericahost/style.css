@@ -78,7 +78,7 @@ html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-s
 
 .acme-abouts .column .single-item .content { padding: 0 5px; text-align: center; display: flow-root; }
 .site-title, .site-title a { font-size: 13px; line-height: 7px; margin: 0; text-transform: initial; font-weight: 300; text-align: center; }
-.image-slider-caption.init-animate.fadeInDown { background: rgba(255, 0, 0, 0.8); border-radius: 30px; padding: 2px 5px; width: 85%; text-align: center; line-height: 26px; height: 32px; }
+.image-slider-caption.init-animate.fadeInDown { background: rgba(255, 0, 0, 0.8); border-radius: 30px; padding: 2px 5px; width: 85%; text-align: center; line-height: 34px; height: 40px; }
 
 .custom-logo-link { width: 100%; text-align: center; position: relative; display: block; }
 
@@ -312,6 +312,8 @@ html #alc_style14 .alc_item {
 .btn-primary.focus, .btn-primary:focus { color:#fff; background-color:#ff3815; border:1px solid #fff; }
 
 /*Planos de Hospedagem*/
+.planos-de-hospedagem-id.h2 { margin: 0 auto 35px}
+.planos-de-hospedagem-id.h2 h2 {margin: 0}
 #planos-de-hospedagem-column-id ul { margin-left: 12px; padding-left: 25px; list-style: disc;}
 .home .planos-de-hospedagem-box ul > li { text-align: left; margin: 0 auto; font-weight: bold; font-family: 'Poppins', sans-serif; display: list-item ; }
 .planos-de-hospedagem-box ul > li { text-align: left; margin: 12px auto; font-weight: bold; font-family: 'Poppins', sans-serif; }
@@ -566,7 +568,8 @@ td, th {
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
 
-    .desktop-only { display: block; }
+    html .desktop-only { display: block; }
+    .hidden-sm { display: inline-block !important; }
 
     .info-icon-details .icon-desc { font-size: 12px; }
     .info-icon-box .info-icon .fa { right: 24px; }
@@ -605,31 +608,52 @@ td, th {
 @media only screen and (max-width : 992px) {
     
     #planos-de-hospedagem-column-id {margin: 12px 16px}
+    .featured-button.btn.btn-primary.hidden-xs.hidden-sm {left: 5px;}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     
-    .info-icon-box-wrapper {
-        width: auto;
-        display: flex;
+    .container.primary-bg.at-absolute-feature-icon {
+        background: transparent;
     }
-    
+    .info-icon-box-wrapper {
+        width: 100%;
+        display: block;
+        position: relative;
+        float: none;
+    }
     .info-icon-box-wrapper .info-icon-box {
-        max-width: 25%;
+        max-width: 49%;
         display: inline-block;
         width: 100%;
+        margin: 2px 2.5px;
+        padding: 10px 5px;
+        background: red;
+        position: relative;
+        float: unset;
     }
     .info-icon-details .icon-desc {
-        font-size: 10px;
+        font-size: 15px;
+        margin: auto;
     }
-    .info-icon-details .icon-title {font-size: 12px; }
+    .info-icon-details .icon-title {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+    .info-icon-box .info-icon {
+        left: 228px;
+    }
     .info-icon-box .info-icon .fa {
-        right: 48px;
+        right: 182px;
+    }
+    .info-icon-box .info-icon .fa.fa-check {
+        left: -187px;
     }
     #planos-de-hospedagem-column-id {
-        margin: 12px 12px;
+        width: 32%;
+        margin: 12px 5px;
         position: relative;
         display: inline-block;
         float: none;
@@ -652,11 +676,86 @@ td, th {
     .single-service-content { font-size: 14px; text-align: center; }
     .site-footer .entry-header-title .entry-title {font-size: 12px}
     .footer-columns .widget-title { font-size: 12px; margin: 0; }
+    .navbar-header { width: 74%; }
+
+    #construction_field_posts_col-2 {
+        display: none;
+    }
+    .site-footer {
+        background-color: #242424;
+        text-align: center;
+        display: block;
+        position: relative;
+    }
+    .footer-sidebar.col-sm-3.init-animate.zoomIn {
+    margin: 0 auto;
+    width: auto;
+    max-width: 40%;
+    }
+    .site-footer .footer-columns {
+        padding-top: 0;
+    }
+
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
+
+    .container.primary-bg.at-absolute-feature-icon {
+        background: transparent;
+    }
+    .info-icon-box-wrapper {
+        width: 100%;
+        display: block;
+        position: relative;
+        float: none;
+    }
+    .info-icon-box-wrapper .info-icon-box {
+        max-width: 49%;
+        display: inline-block;
+        width: 100%;
+        margin: 2px;
+        padding: 10px 5px;
+        background: red;
+        position: relative;
+        float: unset;
+    }
+    .info-icon-details .icon-title {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+    .info-icon-details .icon-desc {
+        font-size: 15px;
+        margin: auto;
+    }
+    .info-icon-box .info-icon {
+        left: 228px;
+    }
+    .info-icon-box .info-icon .fa {
+        right: 182px;
+    }
+    .info-icon-box .info-icon .fa.fa-check {
+        left: -222px;
+    }
+    i.slick-arrow{top: 135px}
+    .image-slider-wrapper .slider-content {top: 25%}
+    .single-list.col-sm-12.col-md-4.column {
+        width: auto;
+        margin: 0 auto;
+        position: relative;
+        display: inherit;
+        max-width: 90%;
+        font-size: 17px;
+    }
+
+    #planos-de-hospedagem-column-id {
+        width: 33%;
+        padding: 50px 5px;
+        margin: 12px 1px;
+        position: relative;
+        display: inline-block;
+    }
 
 }
 
@@ -667,8 +766,49 @@ td, th {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
+    
+    
+    .featured-button.btn.btn-primary.hidden-xs.hidden-sm { left: 4px; font-size: 10px; padding: 4px 9px; }
+    .navbar-header img {  max-width: 85%; }
+    .site-title, .site-title a { font-size: 10px; left: -12px; position: relative; }
+    #navbar .container { position: relative; padding: 0 5px; }
+    .custom-logo-link { margin: 0; }
+    .navbar-toggle { width: 35px; height: 35px;}
+    .fa-bars::before {
+        content: "\f0c9";
+        font-size: 14px;
+        left: -2px;
+        position: relative;
+        display: block;
+        top: -6px;
+    }
+
+    .info-icon-box-wrapper .info-icon-box {
+        max-width: 100%;
+        padding: 5px;
+        height: 47px;
+        margin: 0 auto;
+    }
+    .info-icon-details .icon-desc {
+        font-size: 10px;
+        margin: auto;
+        top: -5px;
+    }
+    .info-icon-details .icon-title {
+        font-size: 15px;
+        margin: 5px auto 0;
+    }
+    .info-icon-box .info-icon .fa {
+        right: 207px;
+        bottom: -1px;
+    }
+    .info-icon-box .info-icon .fa.fa-check {
+        left: -207px;
+    }
+
 
 }
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
