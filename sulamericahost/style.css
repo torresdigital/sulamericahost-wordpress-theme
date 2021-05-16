@@ -756,11 +756,21 @@ td, th {
         position: relative;
         display: inline-block;
     }
+    .footer-sidebar.col-sm-3.init-animate.zoomIn {
+        display: none;
+    }
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    
+    .navbar-header {
+        width: 70%;
+    }
+    .custom-logo-link {
+        width: 75%;
+    }
 
 }
 
