@@ -609,6 +609,7 @@ td, th {
     
     #planos-de-hospedagem-column-id {margin: 12px 16px}
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm {left: 5px;}
+    .fa-bars::before { content: "\f0c9"; width: 18px; }
 
 }
 
@@ -764,13 +765,47 @@ td, th {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+    .navbar-header {  width: 70%; }
+    .custom-logo-link { width: 75%; }
     
-    .navbar-header {
-        width: 70%;
+    .info-icon-box-wrapper .info-icon-box {
+        max-width: 100%;
+        padding: 5px;
+        height: 47px;
+        margin: 0 auto;
     }
-    .custom-logo-link {
-        width: 75%;
+    .info-icon-details .icon-desc {
+        font-size: 12px;
+        margin: auto;
+        top: -5px;
     }
+    .info-icon-details .icon-title {
+        font-size: 14px;
+        margin: 5px auto 0;
+    }
+    .info-icon-box .info-icon .fa {
+        right: 207px;
+        bottom: -1px;
+    }
+    .info-icon-box .info-icon .fa.fa-check {
+        left: -207px;
+    }
+    .image-slider-wrapper .slider-content .btn-primary {
+        margin: 2px auto;
+        font-size: 12px;
+    }
+    .featured-image-wrap {max-width: 80%}
+    
+    #planos-de-hospedagem-column-id {
+        width: 85%;
+        padding: 50px 5px;
+        margin: 40px auto;
+        position: relative;
+        display: flex;
+    }
+
+
 
 }
 
