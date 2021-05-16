@@ -813,16 +813,16 @@ td, th {
 @media only screen and (max-width : 360px) {
     
     
-    .featured-button.btn.btn-primary.hidden-xs.hidden-sm { left: 4px; font-size: 10px; padding: 4px 9px; }
+    .featured-button.btn.btn-primary.hidden-xs.hidden-sm { left: 0px; font-size: 11px; padding: 4px 9px; }
     .navbar-header img {  max-width: 85%; }
-    .site-title, .site-title a { font-size: 10px; left: -12px; position: relative; }
+    .site-title, .site-title a { font-size: 10px; left: -7px; position: relative; }
     #navbar .container { position: relative; padding: 0 5px; }
     .custom-logo-link { margin: 0; }
     .navbar-toggle { width: 35px; height: 35px;}
     .fa-bars::before {
         content: "\f0c9";
         font-size: 14px;
-        left: -2px;
+        left: -5px;
         position: relative;
         display: block;
         top: -6px;
