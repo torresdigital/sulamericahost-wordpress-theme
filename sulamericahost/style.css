@@ -698,13 +698,10 @@ td, th {
     }
     
     /*woo*/
-    .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
-        width: 36%;
-        float: left;
-    }
+    .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product         div.images { width: 36%; float: left;  }
 
 
-}
+} /*End 768*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
@@ -817,13 +814,19 @@ td, th {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
-    
-    
+
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm { left: 0px; font-size: 11px; padding: 4px 9px; }
     .navbar-header img {  max-width: 85%; }
     .site-title, .site-title a { font-size: 10px; left: -7px; position: relative; }
     #navbar .container { position: relative; padding: 0 5px; }
     .custom-logo-link { margin: 0; }
+
+    .navbar .navbar-toggle {
+        top: 2px;
+        margin: 0 auto;
+        right: 10px;
+    }
+
     .navbar-toggle { width: 35px; height: 35px;}
     .fa-bars::before {
         content: "\f0c9";
@@ -854,7 +857,7 @@ td, th {
         bottom: -1px;
     }
     .info-icon-box .info-icon .fa.fa-check {
-        left: -207px;
+        left: -218px;
     }
     .image-slider-wrapper .slider-content .btn-primary {
         margin: 2px auto;
@@ -872,11 +875,11 @@ td, th {
         position: relative;
         display: flex;
     }
-    
+
     /*woo*/
     .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images { width: 100%; float: initial; }
     .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary { max-width: 100%; }
-    
+
     .woocommerce span.onsale {max-width: 25%}
     .info-icon-box .info-icon .fa { right: 220px; bottom: -1px; }
 
@@ -885,7 +888,7 @@ td, th {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-    
+
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm {
         left: 2px;
         font-size: 10px;
