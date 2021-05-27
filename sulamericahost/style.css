@@ -400,10 +400,7 @@ html .woocommerce ul.products li.product a img {width: auto}
     margin: 0 auto;
     clear: both;
 }
-.woocommerce-product-details__short-description a {
-    color: red;
-    font-weight: bold;
-}
+.woocommerce-product-details__short-description a, #tab-description a { color: red; font-weight: bold; }
 .woocommerce div.product form.cart .button {
     vertical-align: middle;
     float: left;
@@ -419,6 +416,11 @@ html .woocommerce ul.products li.product a img {width: auto}
 .woocommerce-product-gallery__trigger {
     border: 4px solid #333;
 }
+.pswp__bg {background: #fff}
+.pswp__ui--fit .pswp__caption, .pswp__ui--fit .pswp__top-bar {
+    background-color: rgb(255, 28, 28); text-align: center;}
+.pswp__caption__center { color: #1a1a1a; font-weight: 600;}
+
 /*valores*/
 .woocommerce div.product p.price ins bdi .woocommerce-Price-currencySymbol {
     font-size: 20px;
@@ -698,13 +700,10 @@ td, th {
     }
     
     /*woo*/
-    .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
-        width: 36%;
-        float: left;
-    }
+    .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product         div.images { width: 36%; float: left;  }
 
 
-}
+} /*End 768*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
@@ -766,6 +765,11 @@ td, th {
     .footer-sidebar.col-sm-3.init-animate.zoomIn {
         display: none;
     }
+    
+    /*Quem Somos*/
+    #quem-somos-primeira-descricao-class {
+        margin: 0;
+    }
 
 }
 
@@ -817,13 +821,19 @@ td, th {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
-    
-    
+
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm { left: 0px; font-size: 11px; padding: 4px 9px; }
     .navbar-header img {  max-width: 85%; }
     .site-title, .site-title a { font-size: 10px; left: -7px; position: relative; }
     #navbar .container { position: relative; padding: 0 5px; }
     .custom-logo-link { margin: 0; }
+
+    .navbar .navbar-toggle {
+        top: 2px;
+        margin: 0 auto;
+        right: 10px;
+    }
+
     .navbar-toggle { width: 35px; height: 35px;}
     .fa-bars::before {
         content: "\f0c9";
@@ -854,7 +864,7 @@ td, th {
         bottom: -1px;
     }
     .info-icon-box .info-icon .fa.fa-check {
-        left: -207px;
+        left: -218px;
     }
     .image-slider-wrapper .slider-content .btn-primary {
         margin: 2px auto;
@@ -872,11 +882,11 @@ td, th {
         position: relative;
         display: flex;
     }
-    
+
     /*woo*/
     .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images { width: 100%; float: initial; }
     .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary { max-width: 100%; }
-    
+
     .woocommerce span.onsale {max-width: 25%}
     .info-icon-box .info-icon .fa { right: 220px; bottom: -1px; }
 
@@ -885,7 +895,7 @@ td, th {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-    
+
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm {
         left: 2px;
         font-size: 10px;
@@ -895,6 +905,14 @@ td, th {
         font-size: 9px;
         left: -6px;
         position: relative;
+    }
+    .fa-bars::before {
+        content: "\f0c9";
+        font-size: 14px;
+        left: -5.5px;
+        position: relative;
+        display: block;
+        top: -7px;
     }
 
 }
