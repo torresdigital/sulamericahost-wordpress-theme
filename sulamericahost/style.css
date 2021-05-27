@@ -421,6 +421,8 @@ html .woocommerce ul.products li.product a img {width: auto}
     background-color: rgb(255, 28, 28); text-align: center;}
 .pswp__caption__center { color: #1a1a1a; font-weight: 600;}
 
+html .products.columns-4 .onsale { width: 100%; min-width: 65px; height: 30px; min-height: 30px; line-height: 29px; float: unset; position: relative; display: inline-block; margin: 0 auto; }
+
 /*valores*/
 .woocommerce div.product p.price ins bdi .woocommerce-Price-currencySymbol {
     font-size: 20px;
