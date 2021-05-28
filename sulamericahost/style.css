@@ -497,6 +497,12 @@ html .woocommerce-form.woocommerce-form-login.login {
 }
 
 
+.woocommerce-message {
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+
 /*carrinho*/
 .actions { color: #fff;}
 .product-remove { width: 4%; }
@@ -943,6 +949,13 @@ td, th {
         position: relative;
         display: block;
         top: -7px;
+    }
+    .product-name, .product-total {
+        width: 100%;
+        min-width: 327px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
     }
 
 }
