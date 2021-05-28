@@ -791,6 +791,15 @@ td, th {
     #quem-somos-primeira-descricao-class {
         margin: 0;
     }
+    
+    .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+        width: 100%; }
+    .inner-main-title .entry-header {
+        position: absolute;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
 }
 
