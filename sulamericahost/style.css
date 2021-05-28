@@ -1450,4 +1450,25 @@ like a charm in your responsive design!
 
 }
 
+html .xoo-wsc-bki.xoo-wsc-icon-basket1,
+html .xoo-wscb-icon.xoo-wsc-icon-bag2 {font-family: 'FontAwesome' !important;}
+html .xoo-wsc-icon-basket1::before,
+html .xoo-wsc-icon-bag2::before {content: "\f00c";}
+html .xoo-wsc-ft-btn.button {font-size: 12px; font-weight: 600; height: 40px; line-height: 25px; font-family: "Roboto-Bold", sans-serif;}
+html .xoo-wsc-basket {border-radius: 100%;}
+html .xoo-wsc-ft-btn.button:hover {background: #000;color: #fff;}
+html .xoo-wsc-ft-btn.button.btn.xoo-wsc-ft-btn-checkout {background: #FF3815;color: #fff;font-size: 14px;font-weight: 600;}
+/*html .xoo-wsc-ft-btn.button { font-size: 12px; font-weight: 600 }*/
+
+
+html .sm-up-container {bottom: 100px;}
+html .xoo-wsch-text {font-size: 17px;}
+html .xoo-wscb-count {display: none;}
+html .xoo-wsc-bki, html .xoo-wscb-icon  {font-size: 20px; color: red;}
+html .xoo-wsc-items-count, .xoo-wsc-sc-count {background-color: #fd0000;}
+html .xoo-wsc-qty-price bdi { font-size: 14px; }
+html .xoo-wsc-footer { bottom: 17px; position: relative; }
+
+
+
 @keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
