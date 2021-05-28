@@ -502,6 +502,16 @@ html .woocommerce-form.woocommerce-form-login.login {
     border-radius: 3px;
 }
 
+/*Nossa Chave Pix*/
+.chave-pix {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    font-weight: 600;
+    color: red;
+}
+
 
 /*carrinho*/
 .actions { color: #fff;}
