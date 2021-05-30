@@ -288,7 +288,7 @@ html .tagcloud a:hover { color: #fff; background: rgba(221, 221, 221, 0.5); }
 .at-action-wrapper .slick-arrow.prev, .at-action-wrapper i.slick-arrow { color: #fff; border-radius: 30px; border: 2px solid; }
 .at-action-wrapper .slick-arrow.prev:hover, .at-action-wrapper i.slick-arrow:hover { color: #fff; background: rgba(221, 221, 221, 0.5); }
 .at-action-wrapper .slick-arrow.prev, .at-action-wrapper i.slick-arrow { color: #fff; border-radius: 30px; border: 2px solid; }
-.site-footer .details { font-size: 14px; font-weight: 600; text-shadow: 1px 2px #333; text-align: center; }
+.site-footer .details { font-size: 12px; font-weight: 600; text-shadow: 1px 2px #333; text-align: center; }
 
 /*Parceiros*/
 
@@ -497,7 +497,7 @@ html .woocommerce-form.woocommerce-form-login.login {
 }
 
 
-.woocommerce-message {
+.woocommerce-message, .woocommerce-info {
     font-weight: 600;
     border-radius: 3px;
 }
@@ -1453,9 +1453,12 @@ like a charm in your responsive design!
 html .xoo-wsc-bki.xoo-wsc-icon-basket1,
 html .xoo-wscb-icon.xoo-wsc-icon-bag2 {font-family: 'FontAwesome' !important;}
 html .xoo-wsc-icon-basket1::before,
-html .xoo-wsc-icon-bag2::before {content: "\f00c";}
+html .xoo-wsc-icon-bag2::before {content: "\f23d";}
+html .xoo-wsc-basket {padding: 10px 9px;}
+html .xoo-wsc-empty-cart { text-align: center; }
 html .xoo-wsc-ft-btn.button {font-size: 12px; font-weight: 600; height: 40px; line-height: 25px; font-family: "Roboto-Bold", sans-serif;}
 html .xoo-wsc-basket {border-radius: 100%;}
+html .xoo-wsc-basket { bottom: 23px; right: 10px; background-color: #ffffff; color: #f00; border-radius: 50%; transition: background 0.2s ease-in-out 0s; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(240, 5, 5, 0.9); border: 4px solid #fb0202; }
 html .xoo-wsc-ft-btn.button:hover {background: #000;color: #fff;}
 html .xoo-wsc-ft-btn.button.btn.xoo-wsc-ft-btn-checkout {background: #FF3815;color: #fff;font-size: 14px;font-weight: 600;}
 /*html .xoo-wsc-ft-btn.button { font-size: 12px; font-weight: 600 }*/
@@ -1468,6 +1471,7 @@ html .xoo-wsc-bki, html .xoo-wscb-icon  {font-size: 20px; color: red;}
 html .xoo-wsc-items-count, .xoo-wsc-sc-count {background-color: #fd0000;}
 html .xoo-wsc-qty-price bdi { font-size: 14px; }
 html .xoo-wsc-footer { bottom: 17px; position: relative; }
+html .xoo-wsc-pname a { font-size: 15px; line-height: 20px; position: relative; text-align: center; display: inline-block; }
 
 
 
