@@ -12,34 +12,25 @@ Updated: 2021-04-20 21:24:46
 
 h1 {font-size: 22px; font-weight: 900}
 h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title, .featured-button.btn.btn-primary.hidden-xs.hidden-sm, .post-template-default.single.single-post .entry-title, .entry-title, .entry-title a, #primary-menu, .top-header a, .top-header p, .at-display-inline-block, .more-link.btn.btn-primary { font-family:'Poppins', sans-serif }
-
+.top-header .col-sm-6.text-left { width: 30%; } .top-header .col-sm-6.text-right { width: 52%; float: right }
 .site-content { margin-top: 80px;}
-
 .main-navigation a {font-size: 14px;font-weight: 600;}
 .image-slider-wrapper > .at-absolute-feature-icon {width: 100%}
-.btn-primary.btn-reverse { background: rgba(255, 0, 0, 0.8);     color: #fff;     border: 1px solid #fff; }
+.btn-primary.btn-reverse { background: rgba(255, 0, 0, 0.8); color: #fff; border: 1px solid #fff; }
 .btn-primary.btn-reverse:hover {background-color: #ff3815}
-
 .info-icon-box .info-icon {left: 45px; }
 .info-icon-details {font-weight: 600; }
-
 #nossos-clientes {  margin: auto 12px;}
-
 .acme-gallery .gallery-inner-item::before { box-shadow: initial}
-
-.at-gallery-item h3,
-.at-gallery-item h3 a {
-    text-shadow: initial;
-    color: #333;
-    text-align: center;
-    width: auto;
-    display: inherit;
-}
-
+.at-gallery-item h3, .at-gallery-item h3 a { text-shadow: initial; color: #333; text-align: center; width: auto; display: inherit; }
 .at-bottom-lower { left: 0; bottom: 0}
-.inner-main-title .entry-title,
-.inner-main-title .page-title {
-    text-shadow: 2px 2px 2px #333;
+.inner-main-title .entry-title, .inner-main-title .page-title { text-shadow: 2px 2px 2px #333;}
+
+html .inner-main-title {
+    background-size: contain;
+    background-attachment: fixed;
+    height: 300px;
+    background-position: top center;
 }
 
 .info-icon-box-wrapper .info-icon-box {
@@ -95,9 +86,6 @@ html .at-widget-title-wrapper .widget-title span, .at-widget-title-wrapper .at-s
 .acme-abouts .column .single-item .icon i { border-radius: 100%; animation: shadow-pulse 1s infinite; cursor: pointer; box-shadow: 0 0 0 rgba(204,169,44, 0.4); border: 4px solid #f4f4f4; line-height: 73px;}
 
 .acme-abouts .column .single-item .title { font-size: 20px; text-align: center; padding-left: 0px; float: initial; display: flow-root; }
-.site-footer .details {
-    font-size: 12px;
-}
 
 .at-widget-title-wrapper { margin-bottom: 33px; } 
 .at-action-wrapper { bottom: 0/*33px*/ ; } 
@@ -288,7 +276,7 @@ html .tagcloud a:hover { color: #fff; background: rgba(221, 221, 221, 0.5); }
 .at-action-wrapper .slick-arrow.prev, .at-action-wrapper i.slick-arrow { color: #fff; border-radius: 30px; border: 2px solid; }
 .at-action-wrapper .slick-arrow.prev:hover, .at-action-wrapper i.slick-arrow:hover { color: #fff; background: rgba(221, 221, 221, 0.5); }
 .at-action-wrapper .slick-arrow.prev, .at-action-wrapper i.slick-arrow { color: #fff; border-radius: 30px; border: 2px solid; }
-.site-footer .details { font-size: 12px; font-weight: 600; text-shadow: 1px 2px #333; text-align: center; }
+.site-footer .details { font-size: 12px; line-height: 15px; text-shadow: 1px 2px #333; text-align: center; }
 
 /*Parceiros*/
 
@@ -450,6 +438,75 @@ del span, del bdi {
     margin-bottom: 20px;
 }
 mark, ins { color: transparent;} u, ins {text-decoration: unset}
+
+html .added_to_cart.wc-forward {
+    border: 5px solid #dfdfdf;
+    border-radius: 30px;
+    height: auto;
+    top: 0;
+    margin: 0 12px;
+    position: relative;
+    width: 20%;
+    padding: 8px 12px;
+}
+address br {
+    margin: 5px auto;
+}
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email, .woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone {
+    padding-left: 1.5em;
+    margin: 12px;
+    position: relative;
+    display: list-item;
+    font-weight: 600;
+}
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto 20px;
+}
+/*Botao minha conta*/
+.minha-conta-botao a {
+    border-radius: 30px;
+    transition: background 0.2s ease-in-out 0s;
+    animation: shadow-pulse 1s infinite;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    border: 4px solid #f4f4f4;
+    padding: 5px 10px;
+    margin: 0 12px;
+    background: red;
+    color: #fff;
+    font-weight: 600;
+}
+.minha-conta-botao a:hover, .minha-conta-botao a:visited {color: #fff}
+
+.woocommerce-MyAccount-navigation a {
+    border-radius: 30px;
+    transition: background 0.2s ease-in-out 0s;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    border: 4px solid #f4f4f4;
+    padding: 1px 10px;
+    background: red;
+    color: #fff;
+    font-weight: 600;
+}
+.woocommerce-MyAccount-navigation a:visited, .woocommerce-MyAccount-navigation a:hover {color: #fff}
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
+    display: none;
+}
+
+.woocommerce-MyAccount-navigation-link {margin: 12px auto}
+.woocommerce-MyAccount-content mark, ins {
+    color: red;
+    font-weight: 600;
+}
+.u-columns.woocommerce-Addresses.col2-set.addresses .u-column2.col-2.woocommerce-Address {
+    display: none;
+}
+.woocommerce-account .woocommerce-MyAccount-content .woocommerce-Button.button {
+    margin-top: 12px;
+}
 
 /*checkout*/
 html .woocommerce-form.woocommerce-form-login.login {
