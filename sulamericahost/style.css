@@ -443,7 +443,7 @@ del span, del bdi {
 }
 mark, ins { color: transparent;} u, ins {text-decoration: unset}
 
-html .added_to_cart.wc-forward {
+.cart .added_to_cart.wc-forward {
     border: 5px solid #dfdfdf;
     border-radius: 30px;
     height: auto;
@@ -557,7 +557,6 @@ html .woocommerce-form.woocommerce-form-login.login {
     font-weight: 600;
 }
 
-
 .woocommerce-message, .woocommerce-info {
     font-weight: 600;
     border-radius: 3px;
@@ -573,6 +572,10 @@ html .woocommerce-form.woocommerce-form-login.login {
     color: red;
 }
 
+/*Content My Account*/
+.sul_america_host_my_account_content { margin-bottom: 20px; border-bottom: 4px solid #eaeaea; padding-bottom: 10px; }
+.sul_america_host_my_account_content p { font-weight: 600;}
+html .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {border-radius: 3px}
 
 /*carrinho*/
 .actions { color: #fff;}
