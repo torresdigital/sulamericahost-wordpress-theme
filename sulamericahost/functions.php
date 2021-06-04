@@ -44,7 +44,7 @@ function misha_poll_form( $order_id ) {
     echo '<h2>Esta é sua Ordem de Pedido</h2> <br>
           <div id="minha-conta-botao" class="minha-conta-botao">
          Para acessar seus detalhes de conta, basta clicar no botão
-        <a href="/minha-conta">Acessar minha Conta</a> </div>';
+        <a href="/minha-conta">Acessar minha Conta | Painel de controle</a> </div>';
 
 }
 
