@@ -38,12 +38,34 @@ function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
 
-/* Cart Redirect ! */
+/*Hook página de pedidos*/
+add_action( 'woocommerce_thankyou', 'misha_poll_form', 4 );
+function misha_poll_form( $order_id ) {
+    echo '<h2>Esta é sua Ordem de Pedido</h2> <br>
+          <div id="minha-conta-botao" class="minha-conta-botao">
+         Para acessar seus detalhes de conta, basta clicar no botão
+        <a href="/minha-conta">Acessar minha Conta</a> </div>';
+
+}
+
+/*Hook página de pedidos*/
+add_action( 'woocommerce_account_content', 'sul_america_host_my_account_content', 4 );
+function sul_america_host_my_account_content () {
+
+    echo ' <div id="sul_america_host_my_account_content" class="sul_america_host_my_account_content">
+
+           <h2>Portal do Cliente</h2>
+
+           <p> Este é seu Portal e através dele você pode Gerenciar as informações da sua contratação</p>
+
+         </div>';
+
+}
+
+
+/* Cart Redirect ! *
 add_filter( 'woocommerce_add_to_cart_redirect', 'misha_skip_cart_redirect_checkout' );
 
 function misha_skip_cart_redirect_checkout( $url ) {
     return wc_get_checkout_url();
 }
-
-
-
