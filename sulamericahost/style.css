@@ -654,13 +654,14 @@ td, th {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1280px) {
-    
-    .info-icon-box .info-icon .fa.fa-check { left: -35px; }
-    
-    /*carrinho*/
 
+    .info-icon-box .info-icon .fa.fa-check { left: -35px; }
+
+    /*carrinho*/
     .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions { min-width: 1081px;}
     .product-price, .product-subtotal { width: 18%; }
+
+    html .inner-main-title {height: 257px;}
 
 
 }
@@ -702,6 +703,8 @@ td, th {
     }
     .acme-abouts .column .single-item .title { font-size: 16px; }
     .single-service-content { font-size: 14px; text-align: center; }
+    html .inner-main-title { height: 128px; }
+    .top-header .col-sm-6.text-right { width: 62%;}
 
 
 
