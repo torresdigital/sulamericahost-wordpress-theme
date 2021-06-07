@@ -677,8 +677,10 @@ td, th {
 
     .info-icon-details .icon-desc { font-size: 12px; }
     .info-icon-box .info-icon .fa { right: 24px; }
-    .custom-logo-link { width: 80%; z-index: 0; margin: auto; }
-    .navbar-header { width: 85%; }
+    .custom-logo-link { width: inherit; z-index: 0; margin: auto; }
+    .navbar-header img { display: block; }
+    .site-title, .site-title a { position: relative; left: -88px; }
+    .navbar-header { width: 80%; }
     .col-md-4 { padding: 1px; }
     .info-icon-box .info-icon .fa.fa-check { left: -54px;}
     html #navbar .navbar-collapse { margin: 30px auto; top: 20px; position: relative; }
@@ -693,6 +695,8 @@ td, th {
     .site-footer .entry-header-title .entry-title {font-size: 14px}
     .site-footer .at-widgets.acme-col-posts .widget-title { margin-top: 0;}
     .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images { width: 36%; }
+    
+    .site-footer .entry-header-title .entry-title { font-size: 12px; }
     
     .acme-abouts .column .single-item .icon i {
         line-height: inherit;
