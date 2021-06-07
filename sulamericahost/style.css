@@ -809,6 +809,9 @@ td, th {
     
     /*woo*/
     .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product         div.images { width: 36%; float: left;  }
+    
+    .site-title, .site-title a { position: relative; left: -39px; }
+    .top-header .col-sm-6.text-right { width: 70%; }
 
 
 } /*End 768*/
