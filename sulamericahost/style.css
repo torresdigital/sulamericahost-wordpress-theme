@@ -677,8 +677,10 @@ td, th {
 
     .info-icon-details .icon-desc { font-size: 12px; }
     .info-icon-box .info-icon .fa { right: 24px; }
-    .custom-logo-link { width: 80%; z-index: 0; margin: auto; }
-    .navbar-header { width: 85%; }
+    .custom-logo-link { width: inherit; z-index: 0; margin: auto; }
+    .navbar-header img { display: block; }
+    .site-title, .site-title a { position: relative; left: -88px; }
+    .navbar-header { width: 80%; }
     .col-md-4 { padding: 1px; }
     .info-icon-box .info-icon .fa.fa-check { left: -54px;}
     html #navbar .navbar-collapse { margin: 30px auto; top: 20px; position: relative; }
