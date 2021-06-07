@@ -890,6 +890,9 @@ td, th {
         margin: 0 auto;
         text-align: center;
     }
+    
+    .top-header .col-sm-6.text-right { width: 100%; }
+    .site-title, .site-title a { position: relative; left: -23px; }
 
 }
 
