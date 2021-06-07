@@ -812,6 +812,7 @@ td, th {
     
     .site-title, .site-title a { position: relative; left: -39px; }
     .top-header .col-sm-6.text-right { width: 70%; }
+    .widget-title { font-size: 27px;}
 
 
 } /*End 768*/
