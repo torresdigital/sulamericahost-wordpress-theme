@@ -895,10 +895,18 @@ td, th {
     .top-header .col-sm-6.text-right { width: 100%; }
     .site-title, .site-title a { position: relative; left: -23px; }
 
+  
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+    /*Togle Button*/
+    .navbar .navbar-toggle { top: 11px; }
+    .navbar-toggle { width: 35px; height: 35px;}
+    .fa-bars::before { content: "\f0c9"; font-size: 14px; left: -5px; position: relative; display: block; top: -6px; }
 
     .navbar-header {  width: 70%; }
     .custom-logo-link { width: 75%; }
@@ -939,34 +947,32 @@ td, th {
         display: flex;
     }
 
+    .navbar-header { width: 64%; }
+    .custom-logo-link {  margin: 0; }
+    .site-title, .site-title a { left: -20px; }
+
 
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
+    
+    .site-title, .site-title a { left: -4px; }
+    
+
 
     .featured-button.btn.btn-primary.hidden-xs.hidden-sm { left: 0px; font-size: 11px; padding: 4px 9px; }
     .navbar-header img {  max-width: 85%; }
-    .site-title, .site-title a { font-size: 10px; left: -7px; position: relative; }
+    .site-title, .site-title a { font-size: 10px; left: -3px; position: relative; }
     #navbar .container { position: relative; padding: 0 5px; }
     .custom-logo-link { margin: 0; }
 
-    .navbar .navbar-toggle {
-        top: 2px;
-        margin: 0 auto;
-        right: 10px;
-    }
-
+    .navbar .navbar-toggle { top: 4px; margin: 0 auto; right: 0; }
     .navbar-toggle { width: 35px; height: 35px;}
-    .fa-bars::before {
-        content: "\f0c9";
-        font-size: 14px;
-        left: -5px;
-        position: relative;
-        display: block;
-        top: -6px;
-    }
+    .fa-bars::before { content: "\f0c9"; font-size: 14px; left: -5px; position: relative; display: block; top: -6px; }
+
+
 
     .info-icon-box-wrapper .info-icon-box {
         max-width: 100%;
@@ -1013,6 +1019,8 @@ td, th {
 
     .woocommerce span.onsale {max-width: 25%}
     .info-icon-box .info-icon .fa { right: 220px; bottom: -1px; }
+    
+
 
 
 }
