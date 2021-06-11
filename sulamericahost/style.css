@@ -1065,6 +1065,7 @@ td, th {
     .site-title, .site-title a { left: -2px;}
     
     .copy-right { margin-top: 120px; }
+    .top-header a, .top-header p { font-size: 10px; }
 
 }
 
