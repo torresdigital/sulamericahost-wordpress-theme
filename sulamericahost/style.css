@@ -1026,6 +1026,8 @@ td, th {
     .woocommerce span.onsale {max-width: 25%}
     .info-icon-box .info-icon .fa { right: 220px; bottom: -1px; }
     
+    .copy-right { margin-top: 135px; }
+
 
 
 
@@ -1059,6 +1061,8 @@ td, th {
         display: inline-block;
         text-align: center;
     }
+    
+    .site-title, .site-title a { left: -2px;}
 
 }
 
