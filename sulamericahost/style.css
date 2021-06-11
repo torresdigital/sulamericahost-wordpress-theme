@@ -878,6 +878,10 @@ td, th {
         display: none;
     }
     
+    .copy-right {
+        margin-top: 165px;
+    }
+    
     /*Quem Somos*/
     #quem-somos-primeira-descricao-class {
         margin: 0;
@@ -971,7 +975,7 @@ td, th {
     .navbar .navbar-toggle { top: 4px; margin: 0 auto; right: 0; }
     .navbar-toggle { width: 35px; height: 35px;}
     .fa-bars::before { content: "\f0c9"; font-size: 14px; left: -5px; position: relative; display: block; top: -6px; }
-
+    .top-header a, .top-header p {font-size: 11px}
 
 
     .info-icon-box-wrapper .info-icon-box {
