@@ -402,8 +402,8 @@ html .woocommerce ul.products li.product a img {width: auto}
     float: left;
     border: 5px solid #dfdfdf;
     border-radius: 30px;
-    height: auto;
-    top: 0;
+    height: 51px;
+    top: -6px;
     margin: 0 12px;
     position: relative;
     display: block;
