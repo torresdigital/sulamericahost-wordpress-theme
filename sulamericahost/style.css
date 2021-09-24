@@ -816,6 +816,11 @@ td, th {
     .top-header .col-sm-6.text-right { width: 70%; }
     .widget-title { font-size: 27px;}
 
+    .top-header .col-sm-6.text-left, .top-header .col-sm-6.text-right {
+        width: 100%;
+        text-align: center;
+    }
+
 
 } /*End 768*/
 
