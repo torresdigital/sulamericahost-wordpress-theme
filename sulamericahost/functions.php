@@ -44,7 +44,7 @@ function misha_poll_form( $order_id ) {
     echo '<h2>Esta é sua Ordem de Pedido</h2> <br>
           <div id="minha-conta-botao" class="minha-conta-botao">
          Para acessar seus detalhes de conta, basta clicar no botão
-        <a href="/minha-conta">Acessar minha Conta | Painel de controle</a> </div>';
+        <a href="/minha-conta">Acessar minha Conta | Painel de Controle</a> </div>';
 
 }
 
@@ -61,6 +61,28 @@ function sul_america_host_my_account_content () {
          </div>';
 
 }
+/*widgets classic
+https://developer.wordpress.org/block-editor/how-to-guides/widgets/opting-out/
+*/
+function example_theme_support() {
+    remove_theme_support( 'widgets-block-editor' );
+}
+add_action( 'after_setup_theme', 'example_theme_support' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Cart Redirect ! *
