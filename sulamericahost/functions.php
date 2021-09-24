@@ -72,16 +72,17 @@ add_action( 'after_setup_theme', 'example_theme_support' );
 
 
 
+// To change add to cart text on single product page // https://www.codegearthemes.com/blogs/woocommerce/woocommerce-how-to-change-add-to-cart-button-text
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' ); 
+function woocommerce_custom_single_add_to_cart_text() {
+    return __( 'Contratar', 'woocommerce' ); 
+}
 
-
-
-
-
-
-
-
-
-
+// To change add to cart text on product archives(Collection) page
+add_filter( 'woocommerce_product_add_to_cart_text', 'woocommerce_custom_product_add_to_cart_text' );  
+function woocommerce_custom_product_add_to_cart_text() {
+    return __( 'Contratar', 'woocommerce' );
+}
 
 
 
