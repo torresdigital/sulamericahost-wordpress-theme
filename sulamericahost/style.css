@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, span .widget-title.init-animate.zoomIn, .accordion-title
 .at-gallery-item h3, .at-gallery-item h3 a { text-shadow: initial; color: #333; text-align: center; width: auto; display: inherit; }
 .at-bottom-lower { left: 0; bottom: 0}
 .inner-main-title .entry-title, .inner-main-title .page-title { text-shadow: 2px 2px 2px #333;}
+#menu-item-580 { font-weight: 600;}
 
 html .inner-main-title {
     background-size: contain;
