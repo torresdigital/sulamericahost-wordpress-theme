@@ -1056,6 +1056,15 @@ td, th {
     border-bottom: 1px dotted rgba(0, 0, 0, 0.78);
 }
 
+.recursos-cpanel-home a {
+  color: #ff3815;
+  margin: 0 8px;
+}
+
+.recursos-cpanel-home .fa-whatsapp::before {
+  font-size: 22px;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
